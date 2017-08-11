@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # aurelia-skeleton-webpack
 
 ## Getting started
@@ -132,3 +133,6 @@ To run all the unit test suites and the E2E tests, you may simply run:
 ```shell
 npm start -- test.all
 ```
+=======
+# aurelia-webpack-template
+>>>>>>> aa2f9e45af1cb9a735993f4c36e539eaa73f20a5
