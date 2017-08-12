@@ -14,8 +14,18 @@ export class App {
         moduleId: PLATFORM.moduleName('./welcome'), 
         nav: true, 
         title: 'Welcome', 
-        layoutView: PLATFORM.moduleName('./layout.html') 
+        // layoutView: PLATFORM.moduleName('./layout.html'),
+         layoutViewModel: PLATFORM.moduleName('layout') 
       },
+      { 
+        route: ['admin'], 
+        name: 'admin', 
+        moduleId: PLATFORM.moduleName('./home'), 
+        nav: true, 
+        title: 'Adminsitration', 
+        // layoutView: PLATFORM.moduleName('./layout.html'),
+         layoutViewModel: PLATFORM.moduleName('admin') 
+      }
     ]);
 
     this.router = router;

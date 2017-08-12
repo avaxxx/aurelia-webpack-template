@@ -1,5 +1,6 @@
 <template>
   <div slot="main-content">
+    <div resizeable resize.trigger="foo($event.detail)">
     <section class="au-animate">
       <h2>${heading}</h2>
       <form role="form" submit.delegate="submit()">
@@ -18,5 +19,6 @@
         <button type="submit" class="btn btn-default">Submit</button>
       </form>
     </section>
+    </div>
   </div>
 </template>

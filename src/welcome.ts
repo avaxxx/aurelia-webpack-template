@@ -25,6 +25,13 @@ export class Welcome {
       return confirm('Are you sure you want to leave?');
     }
   }
+
+  foo(detail){
+    console.log("width=" + detail.width);
+    console.log("height=" + detail.height);
+    console.log("old width=" + detail.widthOld);
+    console.log("old height=" + detail.heightOld);
+}
 }
 
 export class UpperValueConverter {
